@@ -1,0 +1,40 @@
+.content {
+  float: left;
+  margin: 2vw;
+
+  background-color: #e4e2e2;
+  width: 18%;
+  display: none;
+  flex-wrap: wrap;
+  outline: 6px solid rgb(95, 95, 118);
+}
+.cubik {
+  display: none;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10%;
+  width: 33.3%;
+  height: 5vw;
+  outline: 3px solid rgb(95, 95, 118);
+  text-align: center;
+  font-size: 4.5vw;
+  color: cornflowerblue;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px black;
+}
+body {
+  background-color: darkgrey;
+}
+button {
+  font-size: 0.8vw;
+  border: 3px solid black;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 1px 1px 1px black;
+  height: 3vw;
+  margin: 1vw;
+  border-radius: 10%;
+  background-color: rgb(255, 255, 255);
+}
+#btn1 {
+  float: left;
+}
